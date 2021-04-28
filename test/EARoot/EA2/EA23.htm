@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>ElementaryCatchment</title>
-<link href="../css/ea.css" rel="stylesheet" type="text/css" />
+<title>Feature Types::FlowpathNetwork</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
 	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
@@ -34,19 +34,19 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ElementaryCatchment", " : "))</script>  : Public  &lt;&lt;Polygon&gt;&gt; Polygon</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("FlowpathNetwork", " : "))</script> Flowpath Network : Public  &lt;&lt;Polyline&gt;&gt; Polyline</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">2021-04-20 11:17:53 AM</td>
+			<td width="85%" class="ObjectDetailsValue">2021-04-20 11:20:28 AM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">2021-04-22 2:40:27 PM</td>
+			<td class="ObjectDetailsValue">2021-04-26 4:25:31 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
-			<td class="ObjectDetailsTopic"><img src="../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
 			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="proj00" style="display: none;">
@@ -82,24 +82,24 @@ function nameClassifier(name, separator)
 			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr>
-			<td class="ObjectDetailsTopic"><img src="../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
 			<td class="ObjectDetailsValue"></td>
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{9C627ED3-EC97-48f5-80E8-659142DAABBF}</td>
+			<td class="ObjectDetailsValue">{4060124B-336E-44bc-96C9-1FCFC25800D0}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA3.htm">Conceptual Model</a>, <a href="EA5.htm">Logical Model</a></td>
+			<td class="ObjectDetailsValue"><a href="../EA3.htm">Logical Model</a>, <a href="../EA1.htm">Conceptual Model</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">A catchment defining a fundamental subdivision of the landscape in which water can be modelled as draining to a single outlet, to an adjacent waterbody, or internally to an area devoid of waterbody features. An elementary catchment is bounded by other elementary catchments; that is, elementary catchments compose a complete coverage. Four types of elementary catchments are recognized: reach catchments, bank catchments, empty catchments, and water catchments. An elementary catchment is generally equivalent to a reach catchment in the US NHDPlus. [&lt;a href=&quot;https://github.com/NRCan/chyf/blob/master/docs/chyfConceptualModel.md#elementary-catchment&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;CHyF&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;]&lt;br/&gt;&lt;br/&gt;Area having a common outlet for its surface runoff. [&lt;a href=&quot;https://library.wmo.int/doc_num.php?explnum_id=8209&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;WMO-No.385&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;] &lt;br/&gt;&lt;br/&gt;Ensemble d&#8217;une r&#233;gion ayant un exutoire commun pour ses &#233;coulements de surface&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">The set of all flowpaths forming a connected network within a catchment and realizing that catchment. [&lt;a href=&quot;https://github.com/NRCan/chyf/blob/master/docs/chyfConceptualModel.md#flowpath-network&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;CHyF&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;]&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
-			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
@@ -110,43 +110,101 @@ function nameClassifier(name, separator)
 		</tr>
 						<tr>
 				<td width="100%" class="TableRow">
+					<i>Public int</i><br /><strong>&nbsp;&nbsp;containedCatchmentId</strong>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">										
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes94')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes94" border="0" />Details:</a>
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+					
+						<tr id="DetailsImageAttributes94_00" style="display: none;">
+							<td width="75"><i>Alias:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes94_01" style="display: none;">
+							<td width="75"><i>Initial:</i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes94_02" style="display: none;">
+							<td width="75"><i>Stereotype: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes94_03" style="display: none;">
+							<td width="75"><i>Ordered: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes94_04" style="display: none;">
+							<td width="75"><i>Range: </i></td>
+							<td></td>
+						</tr>
+						<tr id="DetailsImageAttributes94_05" style="display: none;">
+							<td width="75"><i>Transient: </i></td>
+							<td>False</td>
+						</tr>
+						<tr id="DetailsImageAttributes94_06" style="display: none;">
+							<td width="75"><i>Derived: </i></td>
+							<td>False</td>
+						</tr>
+							<tr id="DetailsImageAttributes94_07" style="display: none;">
+							<td width="75"><i>IsID: </i></td>
+						<td>False</td>
+						</tr>
+					</table>
+					
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A unique identifier that references CatchmentID to which this feature is associated with.&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow">
 					<i>Public int</i><br /><strong>&nbsp;&nbsp;id</strong>
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes65')" style="text-decoration: none; color: #000000;"><img src="../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes65" border="0" />Details:</a>
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes95')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes95" border="0" />Details:</a>
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
 					
-						<tr id="DetailsImageAttributes65_00" style="display: none;">
+						<tr id="DetailsImageAttributes95_00" style="display: none;">
 							<td width="75"><i>Alias:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes65_01" style="display: none;">
+						<tr id="DetailsImageAttributes95_01" style="display: none;">
 							<td width="75"><i>Initial:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes65_02" style="display: none;">
+						<tr id="DetailsImageAttributes95_02" style="display: none;">
 							<td width="75"><i>Stereotype: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes65_03" style="display: none;">
+						<tr id="DetailsImageAttributes95_03" style="display: none;">
 							<td width="75"><i>Ordered: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes65_04" style="display: none;">
+						<tr id="DetailsImageAttributes95_04" style="display: none;">
 							<td width="75"><i>Range: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes65_05" style="display: none;">
+						<tr id="DetailsImageAttributes95_05" style="display: none;">
 							<td width="75"><i>Transient: </i></td>
 							<td>False</td>
 						</tr>
-						<tr id="DetailsImageAttributes65_06" style="display: none;">
+						<tr id="DetailsImageAttributes95_06" style="display: none;">
 							<td width="75"><i>Derived: </i></td>
 							<td>False</td>
 						</tr>
-							<tr id="DetailsImageAttributes65_07" style="display: none;">
+							<tr id="DetailsImageAttributes95_07" style="display: none;">
 							<td width="75"><i>IsID: </i></td>
 						<td>False</td>
 						</tr>
@@ -168,43 +226,43 @@ function nameClassifier(name, separator)
 				</td>
 			</tr>			<tr>
 				<td width="100%" class="TableRow">
-					<i>Public <a href="EA8.htm">ElementaryCatchmentType </a></i><br /><strong>&nbsp;&nbsp;type</strong>
+					<i>Public int</i><br /><strong>&nbsp;&nbsp;code</strong>
 				</td>
 			</tr>
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes66')" style="text-decoration: none; color: #000000;"><img src="../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes66" border="0" />Details:</a>
+					<a href="#" onclick="parent.toggleData('DetailsImageAttributes96')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes96" border="0" />Details:</a>
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
 					
-						<tr id="DetailsImageAttributes66_00" style="display: none;">
+						<tr id="DetailsImageAttributes96_00" style="display: none;">
 							<td width="75"><i>Alias:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes66_01" style="display: none;">
+						<tr id="DetailsImageAttributes96_01" style="display: none;">
 							<td width="75"><i>Initial:</i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes66_02" style="display: none;">
+						<tr id="DetailsImageAttributes96_02" style="display: none;">
 							<td width="75"><i>Stereotype: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes66_03" style="display: none;">
+						<tr id="DetailsImageAttributes96_03" style="display: none;">
 							<td width="75"><i>Ordered: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes66_04" style="display: none;">
+						<tr id="DetailsImageAttributes96_04" style="display: none;">
 							<td width="75"><i>Range: </i></td>
 							<td></td>
 						</tr>
-						<tr id="DetailsImageAttributes66_05" style="display: none;">
+						<tr id="DetailsImageAttributes96_05" style="display: none;">
 							<td width="75"><i>Transient: </i></td>
 							<td>False</td>
 						</tr>
-						<tr id="DetailsImageAttributes66_06" style="display: none;">
+						<tr id="DetailsImageAttributes96_06" style="display: none;">
 							<td width="75"><i>Derived: </i></td>
 							<td>False</td>
 						</tr>
-							<tr id="DetailsImageAttributes66_07" style="display: none;">
+							<tr id="DetailsImageAttributes96_07" style="display: none;">
 							<td width="75"><i>IsID: </i></td>
 						<td>False</td>
 						</tr>
@@ -217,113 +275,7 @@ function nameClassifier(name, separator)
 			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
 		</td>
 		<td>
-			Expresses the type of the elementary catchment, using a term from the ElementaryCatchmentType code list&lt;br/&gt;
-		</td>
-	</tr>
-</table></div>
-
-						
-				</td>
-			</tr>			<tr>
-				<td width="100%" class="TableRow">
-					<i>Public int</i><br /><strong>&nbsp;&nbsp;downstreamNodeId</strong>
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes67')" style="text-decoration: none; color: #000000;"><img src="../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes67" border="0" />Details:</a>
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-					
-						<tr id="DetailsImageAttributes67_00" style="display: none;">
-							<td width="75"><i>Alias:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes67_01" style="display: none;">
-							<td width="75"><i>Initial:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes67_02" style="display: none;">
-							<td width="75"><i>Stereotype: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes67_03" style="display: none;">
-							<td width="75"><i>Ordered: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes67_04" style="display: none;">
-							<td width="75"><i>Range: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes67_05" style="display: none;">
-							<td width="75"><i>Transient: </i></td>
-							<td>False</td>
-						</tr>
-						<tr id="DetailsImageAttributes67_06" style="display: none;">
-							<td width="75"><i>Derived: </i></td>
-							<td>False</td>
-						</tr>
-							<tr id="DetailsImageAttributes67_07" style="display: none;">
-							<td width="75"><i>IsID: </i></td>
-						<td>False</td>
-						</tr>
-					</table>
-					
-					
-						&nbsp;
-						
-				</td>
-			</tr>			<tr>
-				<td width="100%" class="TableRow">
-					<i>Public int</i><br /><strong>&nbsp;&nbsp;toponymId</strong>
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes68')" style="text-decoration: none; color: #000000;"><img src="../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes68" border="0" />Details:</a>
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-					
-						<tr id="DetailsImageAttributes68_00" style="display: none;">
-							<td width="75"><i>Alias:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes68_01" style="display: none;">
-							<td width="75"><i>Initial:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes68_02" style="display: none;">
-							<td width="75"><i>Stereotype: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes68_03" style="display: none;">
-							<td width="75"><i>Ordered: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes68_04" style="display: none;">
-							<td width="75"><i>Range: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes68_05" style="display: none;">
-							<td width="75"><i>Transient: </i></td>
-							<td>False</td>
-						</tr>
-						<tr id="DetailsImageAttributes68_06" style="display: none;">
-							<td width="75"><i>Derived: </i></td>
-							<td>False</td>
-						</tr>
-							<tr id="DetailsImageAttributes68_07" style="display: none;">
-							<td width="75"><i>IsID: </i></td>
-						<td>False</td>
-						</tr>
-					</table>
-					
-					
-						<div class="ObjectDetailsNotes"><table>
-	<tr>
-		<td valign="top">
-			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
-		</td>
-		<td>
-			The identifier to the name of this feature from the toponym database, if applicable.&lt;br/&gt;
+			Unique identifier to the catchment in given context. The code attribute should be implemented using a controlled classification or coding system. Example: WMO Basin Codes.&lt;br/&gt;
 		</td>
 	</tr>
 </table></div>
@@ -333,7 +285,7 @@ function nameClassifier(name, separator)
 			</tr>
 	</table>
 </div>
-		<div class="ItemBody" id="AssociationsToTable">
+		<div class="ItemBody" id="AssociationsFromTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
 					<td width="40%" class="TableHeading">Element</td>
@@ -342,35 +294,12 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA24.htm">«Polygon» Waterbody</a><br />
-						Polygon &nbsp;
+						<a href="EA22.htm">«Polyline» ElementaryFlowpath</a><br />
+						Polyline &nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageLink69" onclick="parent.toggleDiv('detailsDIVLink69','DetailsImageLink69')" />Details:
-							<div id="detailsDIVLink69" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA16.htm">«Polygon» CatchmentAggregate</a><br />
-						Polygon &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
+						<strong>Name:</strong> flowpath<br />
+						flowpath that participates in the network
 					</td>
 					<td width="30%" class="TableRow" valign="top">
 						<strong>Name:</strong> &nbsp;<br />
@@ -379,31 +308,8 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageLink70" onclick="parent.toggleDiv('detailsDIVLink70','DetailsImageLink70')" />Details:
-							<div id="detailsDIVLink70" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="EA21.htm">«Point» HydroNode</a><br />
-						Point &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageLink71" onclick="parent.toggleDiv('detailsDIVLink71','DetailsImageLink71')" />Details:
-							<div id="detailsDIVLink71" class="DetailsDiv" >
+						<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink97" onclick="parent.toggleDiv('detailsDIVLink97','DetailsImageLink97')" />Details:
+							<div id="detailsDIVLink97" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -424,8 +330,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageScenario72" onclick="parent.toggleDiv('detailsDIVScenario72','DetailsImageScenario72')" />Details:
-						<div id="detailsDIVScenario72" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario98" onclick="parent.toggleDiv('detailsDIVScenario98','DetailsImageScenario98')" />Details:
+						<div id="detailsDIVScenario98" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br />Description: Create a named complex type ( property type ) that requires the instance to be encoded inline<br /></div>
 
 						</div>
@@ -437,8 +343,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageScenario73" onclick="parent.toggleDiv('detailsDIVScenario73','DetailsImageScenario73')" />Details:
-						<div id="detailsDIVScenario73" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario99" onclick="parent.toggleDiv('detailsDIVScenario99','DetailsImageScenario99')" />Details:
+						<div id="detailsDIVScenario99" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br /></div>
 
 						</div>
@@ -450,8 +356,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageScenario74" onclick="parent.toggleDiv('detailsDIVScenario74','DetailsImageScenario74')" />Details:
-						<div id="detailsDIVScenario74" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario100" onclick="parent.toggleDiv('detailsDIVScenario100','DetailsImageScenario100')" />Details:
+						<div id="detailsDIVScenario100" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: esriFTAnnotation,esriFTComplexEdge,esriFTComplexJunction,esriFTCoverageAnnotation,esriFTDimension,esriFTRasterCatalogItem,esriFTSimple,esriFTSimpleEdge,esriFTSimpleJunction<br />Default: esriFTSimple<br /></div>
 
 						</div>
@@ -463,8 +369,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageScenario75" onclick="parent.toggleDiv('detailsDIVScenario75','DetailsImageScenario75')" />Details:
-						<div id="detailsDIVScenario75" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario101" onclick="parent.toggleDiv('detailsDIVScenario101','DetailsImageScenario101')" />Details:
+						<div id="detailsDIVScenario101" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br /></div>
 
 						</div>
@@ -476,8 +382,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageScenario76" onclick="parent.toggleDiv('detailsDIVScenario76','DetailsImageScenario76')" />Details:
-						<div id="detailsDIVScenario76" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario102" onclick="parent.toggleDiv('detailsDIVScenario102','DetailsImageScenario102')" />Details:
+						<div id="detailsDIVScenario102" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: true,false<br />Default: true<br /></div>
 
 						</div>
@@ -489,8 +395,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageScenario77" onclick="parent.toggleDiv('detailsDIVScenario77','DetailsImageScenario77')" />Details:
-						<div id="detailsDIVScenario77" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario103" onclick="parent.toggleDiv('detailsDIVScenario103','DetailsImageScenario103')" />Details:
+						<div id="detailsDIVScenario103" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br /></div>
 
 						</div>
@@ -502,8 +408,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageScenario78" onclick="parent.toggleDiv('detailsDIVScenario78','DetailsImageScenario78')" />Details:
-						<div id="detailsDIVScenario78" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario104" onclick="parent.toggleDiv('detailsDIVScenario104','DetailsImageScenario104')" />Details:
+						<div id="detailsDIVScenario104" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br />Description: Identifies the class as a collection<br /></div>
 
 						</div>
@@ -515,8 +421,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageScenario79" onclick="parent.toggleDiv('detailsDIVScenario79','DetailsImageScenario79')" />Details:
-						<div id="detailsDIVScenario79" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario105" onclick="parent.toggleDiv('detailsDIVScenario105','DetailsImageScenario105')" />Details:
+						<div id="detailsDIVScenario105" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br />Description: Suppress creation of a named complex type ( property type ) that supports inline or byReference encoding<br /></div>
 
 						</div>
@@ -528,8 +434,8 @@ function nameClassifier(name, separator)
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageScenario80" onclick="parent.toggleDiv('detailsDIVScenario80','DetailsImageScenario80')" />Details:
-						<div id="detailsDIVScenario80" class="DetailsDiv" >
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario106" onclick="parent.toggleDiv('detailsDIVScenario106','DetailsImageScenario106')" />Details:
+						<div id="detailsDIVScenario106" class="DetailsDiv" >
 						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br /></div>
 
 						</div>
@@ -547,16 +453,16 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA24.htm">«Polygon» Waterbody</a></td>
-					<td width="10%" class="TableRow" valign="top">Polygon</td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA22.htm">«Polyline» ElementaryFlowpath</a></td>
+					<td width="10%" class="TableRow" valign="top">Polyline</td>
 					<td width="10%" class="TableRow" valign="top">Weak</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA16.htm">«Polygon» CatchmentAggregate</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA20.htm">«Polygon» CatchmentAggregate</a></td>
 					<td width="10%" class="TableRow" valign="top">Polygon</td>
-					<td width="10%" class="TableRow" valign="top">Weak</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
 					<td width="10%" class="TableRow" valign="top">To</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>

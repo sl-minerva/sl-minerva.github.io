@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "«Polygon» CatchmentAggregate", "EARoot/EA2/EA20.htm", "5.png", "E12", "0", "", "Class0","{34F71E44-5080-4988-A12A-8E6616CCC060}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "«Polygon» ElementaryCatchment", "EARoot/EA2/EA21.htm", "5.png", "E9", "0", "", "Class0","{9C627ED3-EC97-48f5-80E8-659142DAABBF}");
+tocTab[tocTab.length] = new Array("0.2:3", "", "«Polyline» ElementaryFlowpath", "EARoot/EA2/EA22.htm", "5.png", "E15", "0", "", "Class0","{50AADB28-D77E-43b7-9062-1099D5B63B73}");
+tocTab[tocTab.length] = new Array("0.2:4", "", "«Polyline» FlowpathNetwork", "EARoot/EA2/EA23.htm", "5.png", "E16", "0", "", "Class0","{4060124B-336E-44bc-96C9-1FCFC25800D0}");
+tocTab[tocTab.length] = new Array("0.2:5", "", "«Point» HydroLocation", "EARoot/EA2/EA24.htm", "5.png", "E14", "0", "", "Class0","{BBC2BC72-FC4E-4a5b-8ECB-D3C99A7684CD}");
+tocTab[tocTab.length] = new Array("0.2:6", "", "«Point» HydroNode", "EARoot/EA2/EA25.htm", "5.png", "E13", "0", "", "Class0","{AE37ED40-DDF9-48bd-B999-7FB499E0C929}");
+tocTab[tocTab.length] = new Array("0.2:7", "", "«Polyline» MainFlowpath", "EARoot/EA2/EA26.htm", "5.png", "E17", "0", "", "Class0","{41C882F5-4AD9-4e81-A705-2EFEC37FDF51}");
+tocTab[tocTab.length] = new Array("0.2:8", "", "«Polygon» OtherHydroFeature", "EARoot/EA2/EA27.htm", "5.png", "E11", "0", "", "Class0","{F8E1942A-0D82-4403-847E-475F4E0CBD80}");
+tocTab[tocTab.length] = new Array("0.2:9", "", "«Polygon» Waterbody", "EARoot/EA2/EA28.htm", "5.png", "E6", "0", "", "Class0","{718812AE-CBE4-4c23-B8E1-847F3A338F81}");
