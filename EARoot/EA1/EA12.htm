@@ -42,7 +42,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">2021-05-13 4:52:22 PM</td>
+			<td class="ObjectDetailsValue">2021-05-14 10:45:25 AM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -94,7 +94,7 @@ function nameClassifier(name, separator)
 			<td class="ObjectDetailsValue"><a href="../EA3.htm">Fig2. Logical Model</a>, <a href="../EA1.htm">Fig1. Conceptual Model</a>, <a href="../EA4/EA42.htm">Fig5. Network Connectivity</a>, <a href="../EA4/EA48.htm">Fig8. Catchment-HydroNode</a>, <a href="../EA4/EA50.htm">Fig9. OtherHydroFeature</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">An elementary catchment defines a fundamental subdivision of the landscape in which water can be modelled as draining to a single outlet, to an adjacent waterbody, internally to an area devoid of waterbody features, or directly as a waterbody. Four types of elementary catchments are recognized: reach catchments, bank catchments, empty catchments, and water catchments. [&lt;a href=&quot;file://{entary-catchment}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;CHyF&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;]&lt;br/&gt;&lt;br/&gt;Une unit&#233; &#233;l&#233;mentaire de drainage d&#233;finit une subdivision fondamentale du paysage o&#249; les eaux peuvent &#234;tre mod&#233;lis&#233;es comme s&#8217;&#233;coulant vers un exutoire unique, vers un cours d&#8217;eau adjacent ou vers une zone interne d&#233;pourvue d&#8217;entit&#233;s aquatiques ou directement comme un cours d&#8217;eau. On reconna&#238;t quatre types d&#8217;unit&#233;s &#233;l&#233;mentaires de drainage : les unit&#233;s de drainage de biefs, les unit&#233;s de drainage de rive, les unit&#233;s de drainage vides et les unit&#233;s de drainage conventionnelles. [&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;CHyF&lt;/u&gt;&lt;/font&gt;]&lt;br/&gt;</div>
+	<div class="ObjectDetailsNotes">An elementary catchment defines a fundamental subdivision of the landscape in which water can be modelled as draining to a single outlet, to an adjacent waterbody, internally to an area devoid of waterbody features, or directly as a waterbody. Four types of elementary catchments are recognized: reach catchments, bank catchments, empty catchments, and water catchments. [&lt;a href=&quot;file://{entary-catchment}&#39;)&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;CHyF&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;] &lt;br/&gt;&lt;br/&gt;Une unit&#233; &#233;l&#233;mentaire de drainage d&#233;finit une subdivision fondamentale du paysage o&#249; les eaux peuvent &#234;tre mod&#233;lis&#233;es comme s&#8217;&#233;coulant vers un exutoire unique, vers un cours d&#8217;eau adjacent ou vers une zone interne d&#233;pourvue d&#8217;entit&#233;s aquatiques ou directement comme un cours d&#8217;eau. On reconna&#238;t quatre types d&#8217;unit&#233;s &#233;l&#233;mentaires de drainage : les unit&#233;s de drainage de biefs, les unit&#233;s de drainage de rive, les unit&#233;s de drainage vides et les unit&#233;s de drainage conventionnelles. [&lt;font color=&quot;#0000ff&quot;&gt;&lt;u&gt;CHyF&lt;/u&gt;&lt;/font&gt;]&lt;br/&gt;</div>
 
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
@@ -473,11 +473,11 @@ function nameClassifier(name, separator)
 					</td>
 					<td width="30%" class="TableRow" valign="top">
 						<strong>Name:</strong> containedCatchment<br />
-						catchment nested in a containing catchment
+						Catchment nested in a containing catchment [HY_F]. ----- Drainage imbriqué dans un drainage contenant [HY_F].
 					</td>
 					<td width="30%" class="TableRow" valign="top">
 						<strong>Name:</strong> containingCatchment<br />
-						identifies the catchment containing one or more elementary catchments contributing together flow to the common outlet.	
+						Identifies the catchment containing one or more elementary catchments contributing together flow to the common outlet [HY_F]. -----  Identifie le drainage qui contenant un ou plusieurs d’unité élémentaire de drainage contribuant ensemble à l'écoulement vers l'exutoire commun [HY_F].	
 					</td>
 				</tr>
 				<tr>
@@ -496,15 +496,11 @@ function nameClassifier(name, separator)
 					</td>
 					<td width="30%" class="TableRow" valign="top">
 						<strong>Name:</strong> contributingCatchment<br />
-						Identifies the catchment that contributes flow to this hydro node. This allows connection of a catchment’s outflow to an identified inflow and to determine its position through referencing the inflow [HY_F].
-
-Identifie l’unité de drainage qui contribue au débit vers ce nœud hydrologique. Cela permet de relier le débit sortant d’une unité de drainage au débit entrant identifié et de déterminer sa position en se rapportant au débit entrant [HY_F].
+						Identifies the catchment that contributes flow to this hydro node. This allows connection of a catchment’s outflow to an identified inflow and to determine its position through referencing the inflow [HY_F]. ----- Identifie l’unité de drainage qui contribue au débit vers ce nœud hydrologique. Cela permet de relier le débit sortant d’une unité de drainage au débit entrant identifié et de déterminer sa position en se rapportant au débit entrant [HY_F].
 					</td>
 					<td width="30%" class="TableRow" valign="top">
 						<strong>Name:</strong> outflow<br />
-						Outflow point of the contributing flowpath. For a dendritic network of flowpaths, the outflow of a contributing flowpath coincides with the inflow to a receiving flowpath. This supports description of upstream-downstream relationships between flowpaths [HY_F].
-
-Point de débit sortant du filamentaire d’écoulement contributif. Pour un réseau dendritique de filamentaires d’écoulement, le débit sortant d’un filamentaire d’écoulement contributif coïncide avec le débit entrant d’un filamentaire d’écoulement récepteur. Cela permet de décrire les relations amont-aval entre les filamentaires d’écoulement [HY_F].	
+						Outflow point of the contributing flowpath. For a dendritic network of flowpaths, the outflow of a contributing flowpath coincides with the inflow to a receiving flowpath. This supports description of upstream-downstream relationships between flowpaths [HY_F]. ----- Point de débit sortant du filamentaire d’écoulement contributif. Pour un réseau dendritique de filamentaires d’écoulement, le débit sortant d’un filamentaire d’écoulement contributif coïncide avec le débit entrant d’un filamentaire d’écoulement récepteur. Cela permet de décrire les relations amont-aval entre les filamentaires d’écoulement [HY_F].	
 					</td>
 				</tr>
 				<tr>
@@ -523,11 +519,11 @@ Point de débit sortant du filamentaire d’écoulement contributif. Pour un ré
 					</td>
 					<td width="30%" class="TableRow" valign="top">
 						<strong>Name:</strong> containedWaterCatchment<br />
-						a catchment that is contained within a water catchment
+						A catchment that is contained within a water catchment [HY_F]. ----- Drainage imbriqué dans un drainage d’eau [HY_F].
 					</td>
 					<td width="30%" class="TableRow" valign="top">
 						<strong>Name:</strong> waterCatchment<br />
-						a type of catchment that presents waterbodies as made up of one or more contained water catchments	
+						Type of catchment that presents waterbodies as made up of one or more contained water catchments [HY_F]. ----- Un type drianage qui présente les plans d'eau comme étant constitués d'un ou plusieurs drainage d'eau contenant. [HY_F].	
 					</td>
 				</tr>
 				<tr>
