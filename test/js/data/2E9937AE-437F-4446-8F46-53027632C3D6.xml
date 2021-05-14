@@ -1,5 +1,0 @@
-tocTab[tocTab.length] = new Array("0:1", "", "Conceptual Model", "EARoot/EA1.htm", "175.png", "6", "0", "", "Logical diagram0","{6CDE5BB6-5308-40c1-A48B-BAE010F25704}");
-tocTab[tocTab.length] = new Array("0:2", "", "Logical Model", "EARoot/EA3.htm", "175.png", "3", "0", "", "Logical diagram0","{76BB47E4-606A-4cd2-A84A-A61F0BE19FD5}");
-tocTab[tocTab.length] = new Array("0.1", "1", "Coded Value Domains", "EARoot/EA1/EA11.htm", "4.png", "", "", "{13E43A2D-E2C2-4d18-BA20-61245F5A249B}", "Package");
-tocTab[tocTab.length] = new Array("0.2", "1", "Feature Types", "EARoot/EA2/EA19.htm", "4.png", "", "", "{ABC986DF-FCEE-4236-BABA-9B6908D1969C}", "Package");
-tocTab[tocTab.length] = new Array("0.3", "1", "Types", "EARoot/EA3/EA29.htm", "4.png", "", "", "{0DB3EBA6-C295-45de-91EB-78205420EB55}", "Package");

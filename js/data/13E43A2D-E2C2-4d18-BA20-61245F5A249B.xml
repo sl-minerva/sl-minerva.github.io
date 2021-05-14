@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "Fig3a. Coded Value Domains", "EARoot/EA2/EA20.htm", "175.png", "4", "0", "", "Logical diagram0","{B1A2E964-F4AD-4caa-87C4-E67841AC3EC6}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "«CodedValueDomain» ElementaryCatchmentType ", "EARoot/EA2/EA23.htm", "5.png", "E19", "0", "", "Class0","{31E547CB-7944-4955-AC0D-4BF3CFDF681D}");
+tocTab[tocTab.length] = new Array("0.2:3", "", "«CodedValueDomain» ElementaryFlowpathType", "EARoot/EA2/EA24.htm", "5.png", "E21", "0", "", "Class0","{D7980527-56FA-40b8-B2F4-10DC499AB63C}");
+tocTab[tocTab.length] = new Array("0.2:4", "", "«CodedValueDomain» FlowPriority", "EARoot/EA2/EA25.htm", "5.png", "E22", "0", "", "Class0","{9A40974E-49BE-40f8-A8F0-0A6EF8C2FFDF}");
+tocTab[tocTab.length] = new Array("0.2:5", "", "«CodedValueDomain» HydroLocationType", "EARoot/EA2/EA26.htm", "5.png", "E20", "0", "", "Class0","{7B347684-7D05-4e83-859C-934B4BA9404C}");
+tocTab[tocTab.length] = new Array("0.2:6", "", "«CodedValueDomain» HydroNodeType", "EARoot/EA2/EA27.htm", "5.png", "E23", "0", "", "Class0","{0FE82CA7-F9F6-4ac8-AAFD-D2C4E98A3E18}");
+tocTab[tocTab.length] = new Array("0.2:7", "", "«CodedValueDomain» WaterbodyPermanency", "EARoot/EA2/EA28.htm", "5.png", "E27", "0", "", "Class0","{6C7916CB-3E19-45ab-914E-2048B74896E2}");
+tocTab[tocTab.length] = new Array("0.2:8", "", "«CodedValueDomain» WaterbodyType", "EARoot/EA2/EA29.htm", "5.png", "E26", "0", "", "Class0","{7ACD72B6-EA3D-4f5f-9DD7-F490BC4E6F64}");
