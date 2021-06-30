@@ -1,6 +1,0 @@
-tocTab[tocTab.length] = new Array("0.4:1", "", "Fig4. HydroLocation-ElementaryFlowpath", "EARoot/EA4/EA40.htm", "175.png", "18", "0", "", "Logical diagram0","{AFD51644-BA4B-48b5-935D-D4DBED59EB46}");
-tocTab[tocTab.length] = new Array("0.4:2", "", "Fig5. Network Connectivity", "EARoot/EA4/EA42.htm", "175.png", "13", "0", "", "Logical diagram0","{FDFAE9DE-5457-4c14-B0D2-4FBE0F860E38}");
-tocTab[tocTab.length] = new Array("0.4:3", "", "Fig6. Waterbody Representations", "EARoot/EA4/EA44.htm", "175.png", "15", "0", "", "Logical diagram0","{DB9D81B5-D52C-4e15-9EE3-C1F0BF33C60F}");
-tocTab[tocTab.length] = new Array("0.4:4", "", "Fig7. HydroNode-Flowpath", "EARoot/EA4/EA46.htm", "175.png", "24", "0", "", "Logical diagram0","{15BE3033-266E-4352-BC76-67EAF97F2F97}");
-tocTab[tocTab.length] = new Array("0.4:5", "", "Fig8. Catchment-HydroNode", "EARoot/EA4/EA48.htm", "175.png", "25", "0", "", "Logical diagram0","{48DC2B80-FA9B-4f42-BB4A-E79A5DD3844A}");
-tocTab[tocTab.length] = new Array("0.4:6", "", "Fig9. OtherHydroFeature", "EARoot/EA4/EA50.htm", "175.png", "26", "0", "", "Logical diagram0","{A8A51381-1FE0-43cb-9599-B134566AE2EB}");
