@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.1.1", "1", "Fig1a. Conceptual Model", "EARoot/EA1/EA1/EA10.htm", "4.png", "", "", "{D51A8776-BD79-4466-8ED8-4D85DD093BBC}", "Package");
-tocTab[tocTab.length] = new Array("0.1.2", "1", "Fig2. Logical Model-Modèle logique", "EARoot/EA1/EA2/EA30.htm", "4.png", "", "", "{31CDEB15-11CC-4a42-A9A1-C026CD1E42A8}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3", "1", "Fig3a. Coded Value Domains", "EARoot/EA1/EA3/EA50.htm", "4.png", "", "", "{EC1CB34D-E88F-4c73-AB7E-A94E53094FBB}", "Package");
-tocTab[tocTab.length] = new Array("0.1.4", "1", "Fig3b. Domaines de valeurs codées", "EARoot/EA1/EA4/EA61.htm", "4.png", "", "", "{1BEB09A6-A5EB-494f-A17F-B82AD5D59178}", "Package");
-tocTab[tocTab.length] = new Array("0.1.5", "1", "Supplementary Diagrams", "EARoot/EA1/EA5/EA76.htm", "4.png", "", "", "{9ABA9EEC-8A20-4c82-9E34-1EBCC31C4A44}", "Package");
-tocTab[tocTab.length] = new Array("0.1.6", "1", "Fig1b. Modèle conceptuel", "EARoot/EA1/EA6/EA79.htm", "4.png", "", "", "{2C7E0A9B-263D-4a24-8880-EE21A1B38D4A}", "Package");
+tocTab[tocTab.length] = new Array("0.1", "1", "Fig1a. Conceptual Model", "EARoot/EA1/EA10.htm", "4.png", "", "", "{D51A8776-BD79-4466-8ED8-4D85DD093BBC}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "Fig2. Logical Model-Modèle logique", "EARoot/EA2/EA30.htm", "4.png", "", "", "{31CDEB15-11CC-4a42-A9A1-C026CD1E42A8}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "Fig3a. Coded Value Domains", "EARoot/EA3/EA50.htm", "4.png", "", "", "{EC1CB34D-E88F-4c73-AB7E-A94E53094FBB}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "Fig3b. Domaines de valeurs codées", "EARoot/EA4/EA61.htm", "4.png", "", "", "{1BEB09A6-A5EB-494f-A17F-B82AD5D59178}", "Package");
+tocTab[tocTab.length] = new Array("0.5", "1", "Supplementary Diagrams", "EARoot/EA5/EA76.htm", "4.png", "", "", "{9ABA9EEC-8A20-4c82-9E34-1EBCC31C4A44}", "Package");
+tocTab[tocTab.length] = new Array("0.6", "1", "Fig1b. Modèle conceptuel", "EARoot/EA6/EA79.htm", "4.png", "", "", "{2C7E0A9B-263D-4a24-8880-EE21A1B38D4A}", "Package");
